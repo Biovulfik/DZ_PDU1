@@ -3,11 +3,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        int x = 56_000;
+        int ticketPrice = 5_600;
 
-        int y = 20;
+        int rubles = 20;
 
-        int bonus = x / y;
+        int bonus = ticketPrice / rubles;
 
         System.out.println("Количество бонусных милей: " + bonus);
 
